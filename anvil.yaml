@@ -1,6 +1,12 @@
 allow_embedding: false
-package_name: Custom_HTML_1
-name: Custom HTML 1
+package_name: Drink_Ingredients
+name: Drink Ingredients
+startup_form: Form1
 runtime_options: {version: 2, client_version: '3', server_version: python3-sandbox,
   server_spec: null}
-services: []
+metadata: {title: Tea Database, description: 'Query Loaded Teas, Shakes, Coffee and
+    more'}
+services:
+- source: /runtime/services/tables.yml
+  client_config: {}
+  server_config: {}
