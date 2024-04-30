@@ -1,1 +1,6 @@
 roles: []
+color_scheme:
+  colors:
+  - {name: background, color: '#DE5D83'}
+  - {name: drinkcard, color: '#FFE5B4'}
+  preset_groups: []

@@ -1,3 +1,5 @@
-container: {type: ColumnPanel}
+container:
+  type: ColumnPanel
+  properties: {spacing_above: medium, spacing_below: medium}
 components: []
 is_package: true

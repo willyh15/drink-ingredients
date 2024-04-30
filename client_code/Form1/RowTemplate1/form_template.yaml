@@ -1,0 +1,16 @@
+is_package: true
+container:
+  type: DataRowPanel
+  data_bindings: []
+  event_bindings: {show: form_show}
+components:
+- name: link_1
+  properties: {background: 'theme:drinkcard', foreground: '', text: Drink Database,
+    align: center, bold: true, icon: 'fa:database', spacing_above: small}
+  type: Link
+  layout_properties: {}
+  data_bindings: []
+- name: text_area_1
+  properties: {background: 'theme:background', height: 554.2000122070312}
+  type: TextArea
+  layout_properties: {column: 'null'}

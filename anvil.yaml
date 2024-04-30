@@ -1,12 +1,22 @@
-allow_embedding: false
-package_name: Drink_Ingredients
-name: Drink Ingredients
-startup_form: Form1
-runtime_options: {version: 2, client_version: '3', server_version: python3-sandbox,
-  server_spec: null}
-metadata: {title: Tea Database, description: 'Query Loaded Teas, Shakes, Coffee and
-    more', logo_img: 'asset:IMG_0412.jpeg'}
 services:
 - source: /runtime/services/tables.yml
   client_config: {}
   server_config: {}
+- source: /runtime/services/anvil/secrets.yml
+  client_config: {}
+  server_config: {}
+package_name: Drink_Ingredients
+allow_embedding: false
+name: Drink Ingredients
+runtime_options: {version: 2, client_version: '3', server_version: python3-sandbox,
+  server_spec: null}
+metadata: {title: Tea Database, description: 'Query Loaded Teas, Shakes, Coffee and
+    more', logo_img: 'asset:IMG_0412.jpeg'}
+startup_form: Form1
+db_schema:
+  table_1:
+    client: none
+    server: full
+    columns: []
+    title: Table 1
+uplink_visible: true
